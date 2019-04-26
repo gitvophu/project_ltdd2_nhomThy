@@ -36,6 +36,7 @@ import java.util.regex.Pattern;
 import com.example.project.Adapter.GripViewAnswerAdapter;
 import com.example.project.Adapter.GripViewSuggestAdapter;
 import com.example.project.Common.Common;
+import com.example.project.data.DBManager;
 
 import org.w3c.dom.Text;
 
@@ -95,6 +96,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
         Button btnTranfer = (Button) findViewById(R.id.btnTranfer);
 
         //set action bar

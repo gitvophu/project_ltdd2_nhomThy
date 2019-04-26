@@ -6,6 +6,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.project.data.DBManager;
+
 public class StartGame extends AppCompatActivity {
 
     private Button btnBatDau;
@@ -17,7 +19,6 @@ public class StartGame extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.start);
-
         btnBatDau = (Button) findViewById(R.id.btnBatDau);
         btnHuongDan = (Button) findViewById(R.id.btnHuongDan);
         btnXepHang = (Button) findViewById(R.id.btnXepHang);
